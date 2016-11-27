@@ -14,7 +14,9 @@ The zip file contains 332 comma-separated-value (CSV) files containing pollution
 
 
 -Date: the date of the observation in YYYY-MM-DD format (year-month-day)
+
 -sulfate: the level of sulfate PM in the air on that date (measured in micrograms per cubic meter)
+
 -nitrate: the level of nitrate PM in the air on that date (measured in micrograms per cubic meter)
 
 
