@@ -1,6 +1,6 @@
-<center><h2><b>Programming Assignment 3</b></h2></center>
+<h2><b>Programming Assignment 3</b></h2>
 
-<center><h5>R Programming</h5><center>
+<h5>R Programming</h5>
 
 <h3><b>Introduction</b><h3>
 
