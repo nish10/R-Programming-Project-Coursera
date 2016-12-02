@@ -12,12 +12,12 @@ rankall<- function(outcome, num = "best"){
     outcome<- simpleCap(outcome) 
     # make.names function replaces spaces in outcome with "."(dot)
     outcome<- make.names(outcome)
-    # for 
+    # for finding the name of data that matches with outcome
     outcome<- paste("Hospital.30.Day.Death..Mortality..Rates.from.",outcome,sep="")
     if(any(names(data)==outcome)){
       # since all columns are taken as character in colClasses argument of read.csv
       data[,outcome]<- as.numeric(data[,outcome])
-      # idea from lapply matrix example video of coursera
+      # idea from lapply matrix example video of coursera as we can't use rankhopital.R function
       # splitting data w.r.t state 
       sp<- split(data,data$State)
       # subsetting two required columns from sp
